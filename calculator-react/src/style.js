@@ -10,15 +10,14 @@ export const Container = styled.div`
     justify-content: center;
 `;
 
-export const Content = style.div`
+export const Content = styled.div`
     background-color: #FFFFFF;
-    width: 80%;
+    width: 50%;
     min-height: 350px;
-
 
 `
 
-export const Row = style.div`
+export const Row = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -26,7 +25,7 @@ export const Row = style.div`
 
 `
 
-export const Column = style.div`
+export const Column = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
